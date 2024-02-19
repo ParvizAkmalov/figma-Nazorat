@@ -377,3 +377,10 @@
 .conteiner header nav .menuLogo {
     display: none;
 }
+
+.navlinks2{
+    display: none;
+}
+.navlinks2 ul li a:hover{
+    color: #000000;
+}

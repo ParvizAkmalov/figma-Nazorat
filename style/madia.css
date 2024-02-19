@@ -53,6 +53,38 @@
         width: 90%;
     }
 
+    .navlinks2{
+        display: block;
+    }
+    .navlinks2{
+        width: 35%;
+        height: 25%;
+        background-color: #8b8b8b;
+        position: absolute;
+        top: 10%;
+        right: -50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        transition: 0.5s all linear;
+    }
+    .navlinks2 ul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .navlinks2 ul li a{
+        color: rgb(255, 255, 255);
+    }
+    .papviz[type = "checkbox"]{
+        display: none;
+    }
+    .papviz[type = "checkbox"]:checked ~ .navlinks2{
+        right: 0%;
+    }
+
 
     /* about */
     .conteiner .about .about_box{
